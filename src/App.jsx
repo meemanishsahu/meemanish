@@ -2,6 +2,7 @@ import React from "react";
 import iron from "/iron-man.jpg";
 import CaptainAmerica from "/Captain-America.jpg";
 import hulk from "/Hulk.jpg";
+import Home from "./pages/home/Home";
 
 const App = () => {
   return (
@@ -46,6 +47,9 @@ const App = () => {
           Download
         </button>
       </div>
+
+
+      <Home/>
     </div>
   );
 };
